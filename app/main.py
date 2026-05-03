@@ -14,16 +14,14 @@ app = FastAPI(
 # CORS — aceita qualquer origem (adequado para beta)
 # Nota: allow_credentials=True é incompatível com allow_origins=["*"]
 # Por isso listamos explicitamente os domínios conhecidos + wildcard via regex
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=[
         "http://localhost:5500",
         "http://127.0.0.1:5500",
-        "http://localhost:8080",
-        # Vercel — substitua pelo seu domínio real após o deploy
-        "https://irrigatech.vercel.app",
         "https://irrigatech-frontend.vercel.app",
+        "https://irrigatech.agr.br",
+        "https://www.irrigatech.agr.br",
     ],
     allow_origin_regex=r"https://.*\.vercel\.app",  # cobre qualquer preview do Vercel
     allow_credentials=True,
