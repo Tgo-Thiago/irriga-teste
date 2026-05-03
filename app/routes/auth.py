@@ -6,13 +6,13 @@ from models.auth import (
     LoginResponse
 )
 
-from app.services.auth_service import (
+from services.auth_service import (
     hash_senha,
     verificar_senha,
     criar_token
 )
 
-from app.services.user_service import (
+from services.user_service import (
     criar_usuario,
     buscar_usuario_por_email
 )
