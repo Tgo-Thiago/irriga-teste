@@ -8,3 +8,4 @@ passlib[bcrypt]
 supabase
 reportlab
 httpx
+psycopg2-binary
