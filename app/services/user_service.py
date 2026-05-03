@@ -1,4 +1,4 @@
-from app.db.connection import get_connection
+from db.connection import get_connection
 
 
 def criar_usuario(nome, email, senha_hash):
