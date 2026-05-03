@@ -1,6 +1,6 @@
 import numpy as np
-from app.core.adutora import calcular_adutora
-from app.core.bomba import calcular_hmt
+from core.adutora import calcular_adutora
+from core.bomba import calcular_hmt
 
 def gerar_curva_sistema(dados, vazao_projeto):
 
