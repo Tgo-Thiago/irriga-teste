@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from app.models.auth import (
+from models.auth import (
     SignupRequest,
     LoginRequest,
     SignupResponse,
