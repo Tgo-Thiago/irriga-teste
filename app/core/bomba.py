@@ -1,4 +1,4 @@
-from app.core.hydraulics import GRAVIDADE
+from core.hydraulics import GRAVIDADE
 
 def calcular_hmt(
     desnivel_succao,
