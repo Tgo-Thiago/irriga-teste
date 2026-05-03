@@ -1,6 +1,6 @@
 import math
-from app.core.hydraulics import perda_darcy
-from app.core.perdas_localizadas import calcular_perdas_localizadas
+from core.hydraulics import perda_darcy
+from core.perdas_localizadas import calcular_perdas_localizadas
 
 # ---------------------------------------------
 
