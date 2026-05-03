@@ -5,13 +5,13 @@ Versão unificada: bocais reais + velocidade angular + BOM integrado.
 """
 
 import math
-from app.core.motor_pivo import calcular_pivo
-from app.core.adutora import calcular_adutora, escolher_diametro_adutora
-from app.core.bomba import calcular_hmt, calcular_potencia
-from app.core.catalogo_bombas import selecionar_bomba
-from app.services.validacao import validar_projeto
-from app.services.sugestoes import gerar_sugestoes
-from app.services.lista_materiais_service import gerar_bom
+from core.motor_pivo import calcular_pivo
+from core.adutora import calcular_adutora, escolher_diametro_adutora
+from core.bomba import calcular_hmt, calcular_potencia
+from core.catalogo_bombas import selecionar_bomba
+from services.validacao import validar_projeto
+from services.sugestoes import gerar_sugestoes
+from services.lista_materiais_service import gerar_bom
 
 
 def _raio_ideal(area_ha, giro_graus):
