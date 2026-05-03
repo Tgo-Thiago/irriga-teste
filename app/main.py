@@ -14,9 +14,9 @@ app = FastAPI(
 # CORS — aceita qualquer origem (adequado para beta)
 # Nota: allow_credentials=True é incompatível com allow_origins=["*"]
 # Por isso listamos explicitamente os domínios conhecidos + wildcard via regex
-    app.add_middleware(
-        CORSMiddleware,
-        allow_origins=[
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
         "http://localhost:5500",
         "http://127.0.0.1:5500",
         "https://irrigatech-frontend.vercel.app",
