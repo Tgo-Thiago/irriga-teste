@@ -1,6 +1,6 @@
 from fastapi import Header, HTTPException
 from jose import jwt
-from app.config import settings
+from config import settings
 
 
 def get_current_user(authorization: str = Header(None)):
