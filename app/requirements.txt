@@ -1,7 +1,9 @@
 fastapi
-uvicorn
-pymongo
+uvicorn[standard]
 python-dotenv
 pydantic
-motor
-jose
+python-jose[cryptography]
+passlib[bcrypt]
+supabase
+reportlab
+httpx
