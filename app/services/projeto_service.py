@@ -1,5 +1,5 @@
 import json
-from app.db.connection import get_connection
+from db.connection import get_connection
 
 
 def salvar_projeto(user_id: str, dados: dict, resultado: dict):
