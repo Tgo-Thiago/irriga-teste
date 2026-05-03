@@ -6,10 +6,10 @@ from fastapi import APIRouter, HTTPException, Depends
 from fastapi.responses import FileResponse
 from typing import Dict
 
-from app.dependencies.auth import get_current_user
-from app.services.dimensionamento_service import dimensionar
-from app.services.relatorio_service import gerar_relatorio_pdf
-from app.services.projeto_service import (
+from dependencies.auth import get_current_user
+from services.dimensionamento_service import dimensionar
+from services.relatorio_service import gerar_relatorio_pdf
+from services.projeto_service import (
     salvar_projeto, buscar_projeto_por_id,
     listar_projetos, deletar_projeto,
 )
