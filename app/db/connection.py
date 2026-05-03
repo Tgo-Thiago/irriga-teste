@@ -1,5 +1,5 @@
 import psycopg2
-from app.config import settings
+from config import settings
 
 def get_connection():
     """Conexão com timeout de 5s — evita hang indefinido se banco não responde."""
