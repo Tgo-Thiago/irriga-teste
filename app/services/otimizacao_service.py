@@ -1,4 +1,4 @@
-from app.services.dimensionamento_service import dimensionar
+from services.dimensionamento_service import dimensionar
 
 
 # =====================================================
