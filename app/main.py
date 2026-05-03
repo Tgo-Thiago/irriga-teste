@@ -20,10 +20,11 @@ app.add_middleware(
         "http://localhost:5500",
         "http://127.0.0.1:5500",
         "https://irrigatech-frontend.vercel.app",
+        "https://irrigatech-frontend-git-main-thiagos-projects-6cd47749.vercel.app",
         "https://irrigatech.agr.br",
         "https://www.irrigatech.agr.br",
     ],
-    allow_origin_regex=r"https://.*\.vercel\.app",  # cobre qualquer preview do Vercel
+    allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
