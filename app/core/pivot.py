@@ -1,8 +1,8 @@
 # app/core/pivot.py
 
 import math
-from app.core.hydraulics import Trecho, Emissor
-from app.core.topografia import calcular_delta_z
+from core.hydraulics import Trecho, Emissor
+from core.topografia import calcular_delta_z
 
 
 # =========================================================
