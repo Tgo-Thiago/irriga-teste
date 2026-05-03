@@ -1,5 +1,5 @@
 # auth.py
-from app.config import settings
+from config import settings
 
 def create_token(data: dict):
     secret = settings.JWT_SECRET
