@@ -1,4 +1,4 @@
-from app.core.pivot import calcular_perfil_pivo
+from core.pivot import calcular_perfil_pivo
 
 # =====================================================
 # DIÂMETROS DISPONÍVEIS (m)
